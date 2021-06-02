@@ -13,7 +13,7 @@ function App() {
     <Container maxidth="lg">
       <AppBar className={classes.appBar} position="static" color="inherit">
         <Typography variant="h2" align="center">Blogs</Typography>
-        <img src={blogs} alt="blogs" height="200" />
+        <img className={classes.image} src={blogs} alt="blogs" height="60" />
       </AppBar>
       <Grow in>
         <Container>
